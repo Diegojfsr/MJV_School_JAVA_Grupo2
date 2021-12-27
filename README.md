@@ -38,7 +38,5 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2>Referências:
-    https://cursos.alura.com.br/forum/topico-o-que-e-um-interger-57527
-
-</h2>
+<h2>Referências:</h2>
+https://cursos.alura.com.br/forum/topico-o-que-e-um-interger-57527
