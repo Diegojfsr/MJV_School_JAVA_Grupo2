@@ -140,7 +140,7 @@ O programa abaixo ilustram o método java.lang.Integer.valueOf (int a).
 ```
 import java.lang.*;
   
-public class Geeks {
+public class Exemplo {
   
     public static void main(String[] args)
     {
