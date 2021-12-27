@@ -8,16 +8,17 @@
 <h4>1-Realizar uma breve descrição da classe em questão;</h4>
 <h6>Classes Wrappers</h6>
 <p> 
- Os Wrapper são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos, ou seja, é feita um embrulho de streams que são fluxo de dados através de canais.
-Sendo assim, existe uma classe Wrapper para cada tipo primitivo identificado pelo mesmo nome do tipo que possui e tendo a primeira letra maiúscula. Essa regra de declaração é aplicada a todos os tipos, exceto aos que são, char classificados como Character e boolean como Boolean. 
+ 	Os Wrapper são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos, ou seja, é feita um embrulho de streams que são fluxo de dados através de canais.
+	Sendo assim, existe uma classe Wrapper para cada tipo primitivo identificado pelo mesmo nome do tipo que possui e tendo a primeira letra maiúscula. Essa regra de declaração é aplicada a todos os tipos, exceto aos que são, char classificados como Character e boolean como Boolean. 
 </p>
 <h6>Java.lang.Integer</h6>
 <p>
-  Integer é uma classe Wrapper do tipo primitivo int, ou seja, uma tipologia que quando você declara não é inicializada pela linguagem. O integer aceita o mesmo tipo de valores que a o int.
+	Integer é uma classe Wrapper do tipo primitivo int, ou seja, uma tipologia que quando você declara não é inicializada pela linguagem. O integer aceita o mesmo tipo de valores que a o int.
+	Sua principal diferença é que, na declaração, Integer começa com letra maiúscula e possibilita a declaração de valores nulos. Sendo assim, mesmo que o usuário digitou 0 você saberá que ele digitou algo. Caso não tenha digitado nada a variável traz um valor nulo ("null).
 </p>
 <h6>Java.Lang.Double</h6>
 <p>
- Double é uma classe wrapper para o tipo primitivo double que contém vários métodos para lidar com um valor duplo, como convertê-lo em uma representação de string e vice-versa.
+ 	Double é uma classe wrapper para o tipo primitivo double que contém vários métodos para lidar com um valor duplo, como convertê-lo em uma representação de string e vice-versa.
 </p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -37,4 +38,7 @@ Sendo assim, existe uma classe Wrapper para cada tipo primitivo identificado pel
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2>Referências:</h2>
+<h2>Referências:
+    https://cursos.alura.com.br/forum/topico-o-que-e-um-interger-57527
+
+</h2>
