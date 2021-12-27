@@ -159,6 +159,41 @@ Saída:
 Valor de saída = 85
 ```
 
+O **java.lang.Integer.valueOf ( String str )** é um método embutido que é usado para retornar um objeto Integer, mantendo o valor do String str especificado .
+Sintaxe:
+```
+public static Integer valueOf ( String str )
+```
+Parâmetros: Este método aceita um único parâmetro str do tipo String que deve ser analisado.
+
+Valor de retorno: O método retorna um objeto Integer contendo o valor representado pelo argumento string.
+
+O programa abaixo ilustram o método java.lang.Integer.valueOf (String str):
+
+```
+import java.lang.*;
+  
+public class Examplo {
+  
+    public static void main(String[] args)
+    {
+  
+        Integer obj = new Integer(8);
+  
+        String str = "424";
+        // It will return  a Integer instance
+        // representing  the specified string
+        System.out.println("Valor inteiro = " + 
+                            obj.valueOf(str));
+    }
+}
+```
+Saída:
+
+```
+Valor inteiro = 424
+````
+
 **parseDouble()**
 
 parseDouble(): retorna o valor duplo ao analisar a string. Difere de valueOf() porque retorna um valor duplo primitivo e valueOf() retorna um objeto Double. 
