@@ -158,6 +158,45 @@ Saída:
 ```
 Valor de saída = 85
 ```
+
+**parseDouble()**
+
+parseDouble(): retorna o valor duplo ao analisar a string. Difere de valueOf() porque retorna um valor duplo primitivo e valueOf() retorna um objeto Double. 
+
+```
+Syntax : public static double parseDouble(String val)
+             throws NumberFormatException
+Parameters :
+val : String representation of double 
+Throws :
+NumberFormatException : if String cannot be parsed to a double value in given radix.
+```
+```
+public class Exemplo
+{
+ 
+    public static void main(String[] args)
+    {
+   
+   	String bb = "45";
+	Double y = new Double(bb);
+    
+      // parseDouble()
+        // return primitive double value
+        double zz = Double.parseDouble(bb);
+        System.out.println("parseDouble(bb) = " + zz);
+	
+	}
+ 
+}
+```
+Saída:
+
+```
+parseDouble(bb) = 45.0
+```
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>4-Apresentar se alguns dos métodos é sobrecarregado;</h4>
 
