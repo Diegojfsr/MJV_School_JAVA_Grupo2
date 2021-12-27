@@ -3,7 +3,7 @@ Repositório destinado a documentar todos os trabalhos, exercícios e projetos d
 <h1> Desafio-Digytal Code - Programação, Pesquisa, Educação </h1>
 <h3>Grupo 02: DiegoJfsr/Camila/elisabete/Erika/Isael/Mariana/NataliaS/Priscila</h3>
 <h2>DESAFIO:</h2>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>1-Realizar uma breve descrição da classe em questão;</h4>
 <h6>Classes Wrappers</h6>
 <p> 
