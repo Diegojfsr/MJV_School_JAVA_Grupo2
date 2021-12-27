@@ -76,7 +76,88 @@ s : string representation of the byte value
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>3-Apresentar no mínimo 04 métodos mais utilizados destacando o seu contrato (tipo retorno + nome + parâmetros);</h4>
 
+<br>
 
+**ToString()**
+<p> O java.lang.Integer.toString() é um método embutido em Java que é usado para retornar o objeto String que representa o valor deste Integer.</p>
+
+Sintaxe:
+
+public static String toString()
+
+Parâmetros: o método não aceita nenhum parâmetro.
+<br> Valor de retorno: O método retorna o objeto string do valor inteiro específico.
+
+O programa abaixo ilustra o método Java.lang.Integer.toString():
+```
+// Java programa ilustração
+// Metodo toString() 
+import java.lang.*;
+  
+public class Exemplo{
+  
+public static void main(String[] args) {
+  
+    Integer obj = new Integer(8);
+      
+    //Retorno da representação string  
+    String stringvalue1 = obj.toString();
+    System.out.println("Valor String= " + 
+                            stringvalue1);
+      
+        Integer obj3 = new Integer(10);
+      
+    //Retorno da representação string
+    String stringvalue3 = obj3.toString();
+    System.out.println("Valor String = " + 
+                            stringvalue3);
+      
+}
+}
+````
+Saída:
+
+```
+Valor da string = 8
+Valor da string = 10
+
+```
+
+**valueOf()**
+
+<p> O java.lang.Integer.valueOf ( int a ) é um método embutido que é usado para retornar uma instância Integer que representa o valor int especificado a. </p>
+
+Sintaxe:
+
+public static Integer valueOf ( int a )
+
+Parâmetros: O método aceita um único parâmetro a do tipo inteiro que representa o parâmetro cuja instância Integer deve ser retornada.
+<br>Valor de retorno: O método retorna uma instância Integer que representa a .
+
+
+O programa abaixo ilustram o método java.lang.Integer.valueOf (int a). 
+
+```
+import java.lang.*;
+  
+public class Geeks {
+  
+    public static void main(String[] args)
+    {
+  
+        Integer obj = new Integer(10);
+  
+        System.out.println("Valor Saída = " + 
+                            obj.valueOf(85));
+    }
+}
+
+```
+Saída:
+
+```
+Valor de saída = 85
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>4-Apresentar se alguns dos métodos é sobrecarregado;</h4>
 
