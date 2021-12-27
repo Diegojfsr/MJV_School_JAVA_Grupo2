@@ -23,7 +23,55 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>2-Apresentar alternativas de instanciação de objetos com construtor ou metódo singleton;</h4>
+<h5>Classe Java.lang.Integer </h5>
 
+- `Integer (int b)`: Cria um objeto Integer inicializado com o valor fornecido.
+<p>Sintaxe:</p>
+
+```
+public Integer(int b)
+```
+Parâmetros:
+
+```
+b : value with which to initialize
+```
+
+- `Integer (String s)`:  Cria um objeto Integer inicializado com o valor int fornecido pela representação de string. A raiz padrão é considerada 10.
+
+Sintaxe: 
+```
+public Integer(String s) throws NumberFormatException
+```
+Parâmetros:
+```
+s : string representation of the int value 
+```
+<h5>Classe Java.Lang.Double </h5>
+
+- `Double (double b)`:  Cria um objeto Double inicializado com o valor fornecido. 
+
+Sintaxe:
+```
+public Double(Double d)
+````
+Parâmetros: 
+
+```
+d : value with which to initialize
+```
+- `Double (String s)`:  Cria um objeto Double inicializado com o valor double analisado fornecido pela representação de string. A raiz padrão é considerada 10. 
+
+Sintaxe:
+
+```
+public Double(String s) throws NumberFormatException
+```
+Parâmetros:
+
+```
+s : string representation of the byte value 
+```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>3-Apresentar no mínimo 04 métodos mais utilizados destacando o seu contrato (tipo retorno + nome + parâmetros);</h4>
@@ -40,3 +88,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h2>Referências:</h2>
 https://cursos.alura.com.br/forum/topico-o-que-e-um-interger-57527
+<br>https://acervolima.com/classe-java-lang-double-em-java/
+<br>https://acervolima.com/classe-java-lang-integer-em-java/
+
