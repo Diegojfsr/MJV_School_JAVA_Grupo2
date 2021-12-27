@@ -4,6 +4,7 @@ Repositório destinado a documentar todos os trabalhos, exercícios e projetos d
 <h3>Grupo 02: DiegoJfsr/Camila/elisabete/Erika/Isael/Mariana/NataliaS/Priscila</h3>
 <h2>DESAFIO:</h2>
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>1-Realizar uma breve descrição da classe em questão;</h4>
 <h6>Classes Wrappers</h6>
 <p> 
@@ -16,15 +17,15 @@ Sendo assim, existe uma classe Wrapper para cada tipo primitivo identificado pel
 </p>
 <h6>Java.Lang.Double</h6>
 <p>
-  Double é uma classe wrapper para o tipo primitivo double que contém vários métodos para lidar com um valor duplo, como convertê-lo em uma representação de string e vice-versa.
+ Double é uma classe wrapper para o tipo primitivo double que contém vários métodos para lidar com um valor duplo, como convertê-lo em uma representação de string e vice-versa.
 </p>
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>2-Apresentar alternativas de instanciação de objetos com construtor ou metódo singleton;</h4>
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>3-Apresentar no mínimo 04 métodos mais utilizados destacando o seu contrato (tipo retorno + nome + parâmetros);</h4>
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>4-Apresentar se alguns dos métodos é sobrecarregado;</h4>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
