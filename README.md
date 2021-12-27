@@ -18,7 +18,7 @@ Sendo assim, existe uma classe Wrapper para cada tipo primitivo identificado pel
 <p>
   Double é uma classe wrapper para o tipo primitivo double que contém vários métodos para lidar com um valor duplo, como convertê-lo em uma representação de string e vice-versa.
 </p>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h4>2-Apresentar alternativas de instanciação de objetos com construtor ou metódo singleton;</h4>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
